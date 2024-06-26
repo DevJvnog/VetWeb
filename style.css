@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', 'sans-serif';
+    
 }
 
 body {
@@ -63,7 +64,7 @@ h2 {
     background-color: transparent;
     color: #566df0;
     padding: 16px 32px;
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
 }
 
 .shape {
@@ -144,6 +145,7 @@ h2 {
     padding: 24px;
 }
 
+
 footer {
     background-color: rgba(108, 118, 255, 0.25);
     display: flex;
@@ -182,5 +184,108 @@ footer p a {
     padding: 24px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Estilos específicos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+
+    header nav a {
+        padding: 15px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #inicio {
+        padding: 20px;
+        gap: 20px;
+    }
+    #inicio #imginicial{
+        max-width: 400px;
+        max-height: 360px;
+    }
+
+    h1, h2 {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .paragrafo {
+        margin-bottom: 15px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 12px 20px;
+    }
+
+    #clinica {
+        padding: 24px;
+        gap: 15px;
+    }
+
+    #clinica li {
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+    #clinica img{
+        max-width: 400px;
+        max-height: 360px;
+
+    }
+
+    #farmacia {
+        padding: 24px;
+    }
+
+    #farmacia img {
+        margin: 24px auto;
+        max-width: 400px;
+        max-height: 360px;
+    }
+
+    #duvidas {
+        gap: 20px;
+    }
+
+    .duvida h3 {
+        padding: 3px;
+    }
+
+    .duvida .paragrafo {
+        padding: 0 15px;
+    }
+
+    #duvidas img {
+        margin: 24px auto;
+        max-width: 400px;
+        max-height: 360px;
+    }
+
+
+    footer {
+        gap: 20px;
+        padding: 40px;
+    }
+
+    footer nav a {
+        margin-bottom: 12px;
+    }
+
+    footer p {
+        margin-bottom: 12px;
+    }
+
+    #coprywrite {
+        padding: 16px;
+    }
 }
 

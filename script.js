@@ -9,3 +9,4 @@ elementosDuvida.forEach(function (duvida) {
 
     })
 })
+
